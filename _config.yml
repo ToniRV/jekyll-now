@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: tonirv/tonirv.github.io
   instagram:
-  linkedin:
+  linkedin: https://www.linkedin.com/in/rosinol
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter:
@@ -37,7 +37,7 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-104379515-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
