@@ -4,6 +4,7 @@
 
 # Name of your site (displayed in the header)
 name: Toni Rosinol
+title: tonirv
 
 # Short bio or description (displayed in the header)
 description: Roboticist
@@ -41,7 +42,7 @@ google_analytics: UA-104379515-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://tonirv.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -73,9 +74,11 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-seo-tag # Adds meta tags to help with SEO
+  - jekyll-mermaid
 
 # Exclude these files from your production _site
 exclude:
@@ -84,3 +87,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+# To use the mermaid plugin
+mermaid:
+  src: 'js/mermaid.min.js'
